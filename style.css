@@ -5,7 +5,7 @@ body    {
 
 .jumbotron {
     margin-bottom: 0px;
-    background-image: url(bSullyStories.jpg);
+    background-image: url(\bSullyStories.jpg);
     background-position: 10% 70%;
     max-width: 100%;
     height: 250px;
