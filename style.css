@@ -5,6 +5,7 @@ body    {
 
 .jumbotron {
     margin-bottom: 0px;
+    padding-top: 0px;
     background-image: url(bSullyStories.jpg);
     background-position: 10% 70%;
     max-width: 100%;
@@ -58,6 +59,33 @@ p   {
     margin-left: 7%;
     margin-right: 7%;
     box-shadow: 10px 10px 5px #283811;
+}
+
+/* NavBar */
+
+ul {
+    list-style-type: none;
+    width: 250px;
+    background-color: rgba(40, 56, 17, .45);
+    height: 250px;
+}
+
+li {
+    display: block;
+    padding-top: 25px;
+}
+
+li a {
+    text-align: center;
+    width: 60px;
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
 }
 
 /* Media Elements */
